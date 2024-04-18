@@ -1,6 +1,6 @@
 # WayThere
 
-                                                  **Passion Project: WayThere **  
+                                            **Passion Project: WayThere **  
 
 WayThere  is a groundbreaking project designed to revolutionize the rideshare industry by 
 focusing on convenience and cost-effectiveness for both drivers and riders. The core 
@@ -9,7 +9,7 @@ heading in the same direction. This not only maximizes efficiency but also enabl
 to earn extra money without altering their usual routes.  
 
 
-                                                      **How It Works:** 
+                                                **How It Works:** 
 
 Drivers use the WayThere  app to indicate their destination and 
 available seats. Riders enter their destination and are matched with drivers whose routes 
@@ -18,14 +18,14 @@ best experience.
 
 
 
-                                                      **User Benefits:**
+                                                **User Benefits:**
 
 For drivers, WayThere  offers a unique opportunity to earn extra income 
 on journeys they were already planning to make. Riders benefit from more affordable travel 
 options, as drivers do not have to go out of their way.  
 
 
-                                                      **Key Features:**  
+                                                **Key Features:**  
 
 - Location-based matchmaking between drivers and riders.  
 - Simple A to B route optimization.  
@@ -33,13 +33,13 @@ options, as drivers do not have to go out of their way.
 pickup point along the driver’s existing route.
 
 
-                                                    **Technology Stack:**  
+                                                 **Technology Stack:**  
 - **Backend:** Java and SQL for robust data handling.  
 - **Frontend:** JavaScript, HTML, CSS, with React for a dynamic and responsive user 
 experience.
 
 
-                                                    **Why This Approach?**
+                                                 **Why This Approach?**
 
 By utilizing a driver-first approach, WayThere  shifts the current 
 paradigm of ridesharing, which primarily focuses on rider convenience, thereby offering a 
@@ -47,7 +47,7 @@ more balanced model that benefits all parties involved.
 
 
 
-                                                  **Development Roadmap:**
+                                               **Development Roadmap:**
 
 Initial development will focus on establishing a secure and 
 efficient database, integrating user interface components, and launching a basic 
@@ -56,7 +56,7 @@ location tracking.
 
 
 
-                                                    **Impact Vision:**
+                                                 **Impact Vision:**
 
 WayThere  aims to become a sustainable alternative to traditional 
 ridesharing, reducing costs for riders and improving earnings for drivers. Its success wi ll be 
