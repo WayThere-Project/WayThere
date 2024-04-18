@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WayThere</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images\WayThereLogo.png">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Drive
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Ride
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                            <span class="cs-li-link">
+                                About
+                                <img class="cs-drop-icon"
+                                     src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg"
+                                     alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                            </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">About Us</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Opportunities</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Business
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+        <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+        <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+    </button> -->
+    </div>
+
+</header>
+<!-- ============================================ -->
+<!--                   Hero                       -->
+<!-- ============================================ -->
+
+<section id="hero-408">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title"><span class="cs-color">Find you next ride</span>with WayThere</h2>
+            <p class="cs-text">
+                Connect with those who are on the GO.
+            </p>
+            <a href="" class="cs-button-solid">Start Driving</a>
+            <a href="" class="cs-button-transparent">Our Services</a>
+        </div>
+        <div class="cs-stat-group">
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="images\opendoorguy.jpg">
+                <source media="(min-width: 601px)" srcset="images\opendoorguy.jpg">
+                <img loading="lazy" decoding="async" src="images\opendoorguy.jpg" alt="leaves" width="842"
+                     height="737" aria-hidden="true">
+            </picture>
+
+        </div>
+    </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RTsbs-71">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="images\alotofcarsgoing.jpg">
+            <source media="(min-width: 601px)" srcset="images\alotofcarsgoing.jpg">
+            <img loading="lazy" decoding="async" src="images\alotofcarsgoing.jpg" alt="body builder" width="500"
+                 height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Those Who Go</span>
+            <h2 class="cs-title">Book Your Next Ride</h2>
+            <p class="cs-text">
+                Finding rides with people who are heading in the
+                same direction can be a convenient and eco-friendly way to travel.
+                By utilizing ride-sharing platforms or connecting with friends and acquaintances, individuals can save money and reduce their carbon footprint.
+                This collaborative approach to transportation fosters community connections while contributing to a more sustainable future.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RTsbsr-71">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="images\peoplefeetcar.jpg">
+            <source media="(min-width: 601px)" srcset="images\peoplefeetcar.jpg">
+            <img loading="lazy" decoding="async" src="images\peoplefeetcar.jpg" alt="peoplefeetcar" width="500"
+                 height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Share Your Routine</span>
+            <h2 class="cs-title">Find those who share your routine</h2>
+            <p class="cs-text">
+                By matching Drivers with Riders who share the same routines, WayThere enhances the commuting experience, fostering a sense of community and camaraderie.
+                With "Share Your Routine," users can enjoy convenient and affordable rides while forging meaningful connections with fellow commuters who understand and appreciate their daily rhythms.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Triplet             -->
+<!-- ============================================ -->
+
+<section id="RTsbst-71">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)"
+                    srcset="images\girldog.jpg">
+            <source media="(min-width: 601px)"
+                    srcset="images\girldog.jpg">
+            <img loading="lazy" decoding="async"
+                 src="images\girldog.jpg" alt="girl and dog"
+                 width="500" height="552" aria-hidden="true">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Keep Doing You</span>
+            <h2 class="cs-title">Add revenue to your daily errands</h2>
+            <p class="cs-text">
+                WayThere offers a unique twist to the ride-sharing experience, allowing riders to seamlessly earn revenue alongside their daily errands.
+                Unlike Uber, this innovative platform empowers drivers to monetize their commutes and errands, turning every trip into a profitable endeavor.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                    Map                       -->
+<!-- ============================================ -->
+
+<section id="map-720">
+    <!--Download the pin icon, in Figma create a 1920x600 rectangle and make its background a screenshot of the Google Maps location of your clients business location, make sure their actual location is at the center. Doesn't have to be EXACT. Then add the pin in Figma and absolutely position it where its location is in the map.  Highlight everything and hit CTRL G to group it, then export that section as a png.  Now you have your map graphic made for your client. Make an 800X1000 center crop of the image to load on mobile. Then remove this img tag for the icon. -->
+    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fred-pin.svg" alt="icon"
+         decoding="async" width="80" height="80" aria-hidden="true">
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fmap.png">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fmap.png">
+        <img loading="lazy" decoding="async"
+             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fmap.png" alt="map" width="1280"
+             height="600">
+    </picture>
+</section>
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-710">
+    <div class="cs-container">
+        <!--Top Section-->
+        <div class="cs-top">
+            <!--Warpped logo in wrapper div so that div can be 100% width to force the lists below it to stay in their line.  The cs-logo can maintain its' max width. we didn't want it 100% width becuase then the blank area to the right of the logo will also result in a click and hover event. -->
+            <div class="cs-logo-wrapper">
+                <a href="" class="cs-logo">
+                    <img src="images/LogoforFooter.png" alt="logo"
+                         aria-hidden="true" loading="lazy" decoding="async" width="210" height="80">
+                </a>
+            </div>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-header">Quick Links</span>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Contact us</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">FAQ</a>
+                </li>
+            </ul>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-header">Quick Links</span>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Semaglutide</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Dermal Filler</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Tirezapetide</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Neurotoxins</a>
+                </li>
+            </ul>
+            <ul class="cs-ul cs-contact-ul">
+                <li class="cs-li">
+                    <span class="cs-header">Contact</span>
+                </li>
+                <li class="cs-li">
+                    <a href="tel:555-456 7899" class="cs-link">
+                        <img class="cs-icon"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-stroke.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        +1 (555) 456 7899
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a href="mailto:info@example.com" class="cs-link">
+                        <img class="cs-icon"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmail-stroke.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        info@example.com
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link" target="_blank" rel="noopener">
+                        <img class="cs-icon"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-stroke.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        121 King St, Melbourne VIC 3000, Australia
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Middle Section-->
+        <div class="cs-middle">
+            <!--Navigation-->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">Home</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">Services</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">About Us</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">Functional Nutrition</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">Asthetics</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a href="" class="cs-nav-link">FAQ</a>
+                </li>
+            </ul>
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="" target="_blank" rel="noopener">
+                        <!--Default Icon-->
+                        <img class="cs-social-icon cs-default"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffacebook.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        <!--On Hover Icon-->
+                        <img class="cs-social-icon cs-hover"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffacebook-green.svg"
+                             alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="" target="_blank" rel="noopener">
+                        <!--Default Icon-->
+                        <img class="cs-social-icon cs-default"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        <!--On Hover Icon-->
+                        <img class="cs-social-icon cs-hover"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ftwitter-green.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="" target="_blank" rel="noopener">
+                        <!--Default Icon-->
+                        <img class="cs-social-icon cs-default"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstagram.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        <!--On Hover Icon-->
+                        <img class="cs-social-icon cs-hover"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finstagram-green2.svg"
+                             alt="icon" loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="" target="_blank" rel="noopener">
+                        <!--Default Icon-->
+                        <img class="cs-social-icon cs-default"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fyoutube.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                        <!--On Hover Icon-->
+                        <img class="cs-social-icon cs-hover"
+                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fyoutube-green.svg" alt="icon"
+                             loading="lazy" decoding="async" width="24" height="24" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Bottom Section-->
+        <div class="cs-bottom">
+                <span class="cs-copyright">
+                    © Copyright 2023 - <a href="" class="cs-copyright-link" target="_blank" rel="noopener">CodeStitch
+                        Health & Wellness</a>
+                </span>
+        </div>
+    </div>
+    <!--SVG Waves-->
+    <img class="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Ffooter-waves.svg" alt="waves"
+         aria-hidden="true" loading="lazy" decoding="async" width="1920" height="616">
+</footer>
+
+</body>
+
+</html>
