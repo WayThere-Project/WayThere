@@ -1404,7 +1404,7 @@ body {
           text-align: center;
           width: 70%;
           margin: 0;
-          color: var(--bodyTextColorWhite);
+          color: #ffffff;
           display: block;
       }
       #cs-footer-710 .cs-copyright-link {
