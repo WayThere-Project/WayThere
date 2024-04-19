@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     }
 /*-- -------------------------- -->
 <---     Mobile Navigation      -->
@@ -508,7 +510,7 @@ body {
     }
     #cs-navigation {
       width: 100%;
-      padding: 0;
+      padding: 0 0 0 60px;
       /* prevents padding from affecting height and width */
       box-sizing: border-box;
       background-color: #080808;
@@ -708,16 +710,17 @@ body {
   /* Mobile - 360px */
   @media only screen and (min-width: 0rem) {
       #hero-408 {
-          padding: var(--sectionPadding);
+        margin-bottom: 40px;
+          padding: 0 0 0 0;
           /* 112px - 200px */
-          padding-top: clamp(7rem, 15vw, 12.5rem);
+          padding-top: 100px;
           padding-right: 0;
       }
       #hero-408 .cs-container {
           width: 100%;
           /* changes to 100% at tablet */
           max-width: 34.375rem;
-          margin: auto;
+          margin: 0 0 0 0 ;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -758,7 +761,7 @@ body {
           max-width: 40.625rem;
           margin: 0;
           /* 24px - 40px */
-          margin-bottom: clamp(1.5rem, 4.2vw, 3rem);
+          margin-bottom: 120px;
           color: var(--bodyTextColor);
       }
       #hero-408 .cs-button-solid {
@@ -949,10 +952,11 @@ body {
       #RTsbs-71 .cs-container,
       #RTsbsr-71 .cs-container,
       #RTsbst-71 .cs-container {
+
           width: 100%;
           /* changes to 1280px at tablet */
           max-width: 34.375rem;
-          margin: auto;
+          margin: 90px 0 30px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -962,6 +966,7 @@ body {
       #RTsbs-71 .cs-content,
       #RTsbsr-71 .cs-content,
       #RTsbst-71 .cs-content {
+        margin-top: 50px;
           /* set text align to left if content needs to be left aligned */
           text-align: left;
           width: 100%;
@@ -976,6 +981,7 @@ body {
       #RTsbs-71 .cs-text,
       #RTsbsr-71 .cs-text,
       #RTsbst-71 .cs-text {
+        line-height: 1.5;
           margin-bottom: 1rem;
       }
       #RTsbs-71 .cs-text:last-of-type,
@@ -993,7 +999,7 @@ body {
           font-weight: 700;
           text-align: center;
           margin: 0;
-          color: #fff;
+          color: #000000;
           min-width: 9.375rem;
           padding: 0 1.5rem;
           background-color: var(--primary);
@@ -1011,7 +1017,7 @@ body {
           position: absolute;
           height: 100%;
           width: 0%;
-          background: #000;
+          background: #cccaca;
           opacity: 1;
           top: 0;
           left: 0;
@@ -1092,7 +1098,6 @@ body {
       #RTsbs-71 .cs-container,
       #RTsbsr-71 .cs-container,
       #RTsbst-71 .cs-container {
-
           max-width: 80rem;
           flex-direction: row;
           justify-content: flex-start;
@@ -1107,7 +1112,7 @@ body {
           /* 440px - 520px */
           height: clamp(27.5rem, 40vw, 32.5rem);
           /* 16px - 20px */
-          margin: 0 0 0 clamp(1rem, 5vw, 1.25rem);
+          margin: 40px 20px 20px clamp(1rem, 5vw, 1.25rem);
           flex: none;
       }
       #RTsbs-71 .cs-content,
@@ -1149,7 +1154,7 @@ body {
   /* Mobile - 360px */
   @media only screen and (min-width: 0rem) {
       #map-720 {
-
+          margin-top: 50px;
           min-height: 33.75rem;
           padding: var(--sectionPadding);
           /* prevents padding and border from affecting height and width */
@@ -1461,4 +1466,3 @@ body {
 
 
 
-  }
